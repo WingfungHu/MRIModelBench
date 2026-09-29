@@ -57,13 +57,13 @@ Training/
 
 ## 4. Dataset Size
 
-The exact number of images in each class will be verified programmatically from the downloaded dataset.
+The exact number of images in each class have been verified programmatically from the downloaded dataset.
 
 | Split     |  Glioma | Meningioma | No Tumour | Pituitary |   Total |
 | --------- | ------: | ---------: | --------: | --------: | ------: |
-| Training  |     TBD |        TBD |       TBD |       TBD |     TBD |
-| Testing   |     TBD |        TBD |       TBD |       TBD |     TBD |
-| **Total** | **TBD** |    **TBD** |   **TBD** |   **TBD** | **TBD** |
+| Training  |    1400 |       1400 |      1400 |      1400 |    5600 |
+| Testing   |     400 |        400 |       400 |       400 |    1600 |
+| **Total** | **1800** |    **1800** |   **1800** |   **1800** | **7200** |
 
 
 ## 5. Image Characteristics
@@ -72,12 +72,15 @@ The dataset consists of 2D brain MRI images.
 
 | Property           | Value |
 | ------------------ | ----- |
-| File format        | TBD   |
-| Image dimensions   | TBD   |
-| Colour format      | TBD   |
-| Number of channels | TBD   |
+| File format        | jpg   |
+| Image dimensions   | Variable   |
+| Most common image dimension   | 512 x 512  |
+| Colour modes      | L, RGB, RGBA, P   |
+| Number of channels | Variable   |
 
-These characteristics will be examined during the initial exploratory data analysis (EDA).
+The most common image dimension is 512 × 512 pixels. The dataset also contains images with other resolutions, and most images are stored as either grayscale (L) or RGB, with a small number using RGBA or palette-based (P) colour modes.
+
+These differences will need to be handled during preprocessing before training the machine learning models.
 
 
 ## 6. Data Composition
