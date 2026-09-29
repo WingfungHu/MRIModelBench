@@ -107,6 +107,7 @@ Potential limitations of the dataset include:
 * MRI images may have different resolutions or visual characteristics.
 * The dataset may not represent the diversity of MRI scans encountered in clinical practice.
 * Patient-level identifiers or clinical metadata are not available.
+* Possible duplicate/near-duplicate images.
 * Differences between the sources from which the images were collected may introduce variations that affect model performance and generalizability.
 * The dataset may not reflect the conditions, equipment, or patient populations encountered in real-world clinical settings.
 
