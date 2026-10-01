@@ -1,2 +1,5 @@
 data/Testing/
 data/Training/
+data/test.csv/
+data/train.csv/
+data/val.csv/
