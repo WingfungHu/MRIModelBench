@@ -78,7 +78,7 @@ The dataset consists of 2D brain MRI images.
 | Colour modes      | L, RGB, RGBA, P   |
 | Number of channels | Variable   |
 
-The most common image dimension is 512 × 512 pixels. The dataset also contains images with other resolutions, and most images are stored as either grayscale (L) or RGB, with a small number using RGBA or palette-based (P) colour modes.
+The most common image dimension is 512 × 512 pixels. The dataset also contains images with other resolutions, and most images are stored as either grayscale (L) or RGB, with a small number using RGBA or palette-based (P) colour modes (however, all images have the same values as a grayscale image).
 
 These differences will need to be handled during preprocessing before training the machine learning models.
 
