@@ -35,3 +35,8 @@ pip install -r requirements.txt
 ### 4. Run the project
 
 With the dependencies installed, you'll be able to run any of the available notebooks in the repository.
+
+Run the notebooks in descending order:
+- Preprocessing_Data.ipynb
+- Naive_Benchmark.ipynb
+- Decision_Tree_Baseline.ipynb
