@@ -7,3 +7,4 @@ data/processed/*
 !data/processed/.gitkeep
 data/vlm_results/
 .env
+models
