@@ -36,10 +36,8 @@ pip install -r requirements.txt
 
 With the dependencies installed, you'll be able to run any of the available notebooks in the repository.
 
-Run the notebooks in descending order:
+Ensure the following notebook is ran first before any of the models:
 - Preprocessing_Data.ipynb
-- Naive_Benchmark.ipynb
-- Decision_Tree_Baseline.ipynb
 
 
 ### Optional: VLM benchmark
